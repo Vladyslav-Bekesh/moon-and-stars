@@ -1,0 +1,23 @@
+body {
+  background-image: url(/src/images/background.jpg);
+  background-repeat: repeat;
+  padding: 0 auto;
+  font-family: "Sono", sans-serif;
+  max-width: 480px;
+  padding: 60px 0;
+}
+
+.text{
+  text-align: center;
+  color: #fff;
+}
+
+.text--titles{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.text--txt{
+  letter-spacing: 0.03em;
+  line-height: 18px;
+}

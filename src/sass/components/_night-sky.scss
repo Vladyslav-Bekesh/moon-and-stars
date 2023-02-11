@@ -1,0 +1,28 @@
+// .nigth-sky{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.nigth-sky__container {
+  min-height: 350px;
+  min-width: 290px;
+  background-image: url(/src/images/rose.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.night-sky__stars {
+  border-radius: 50%;
+
+  height: 270px;
+  width: 270px;
+  margin: auto auto;
+}
+
+.night-sky__rose {
+  position: relative;
+
+  top: 50%;
+}
