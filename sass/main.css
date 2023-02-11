@@ -80,7 +80,7 @@ body {
 .nigth-sky__container {
   min-height: 350px;
   min-width: 290px;
-  background-image: url(/images/rose.png);
+  background-image: url(../images/rose.png);
   background-repeat: no-repeat;
   background-position: center;
 }
