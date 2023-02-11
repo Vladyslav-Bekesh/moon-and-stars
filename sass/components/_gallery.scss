@@ -1,0 +1,20 @@
+.gallery{
+  display: flex;
+  justify-content: center;
+}
+
+.gallery__btn{
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: #fff;
+  margin: 0 auto;
+
+  font-weight: bold;
+  font-family: "El Messiri", sans-serif;
+  font-size: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

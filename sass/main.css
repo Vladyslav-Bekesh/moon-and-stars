@@ -48,7 +48,6 @@ body {
   background-image: url(../images/background.jpg);
   background-repeat: repeat;
   padding: 0 auto;
-  font-family: "Sono", sans-serif;
   max-width: 480px;
   padding: 60px 0;
 }
@@ -78,21 +77,34 @@ body {
 }
 
 .nigth-sky__container {
-  min-height: 350px;
   min-width: 290px;
-  background-image: url(../images/rose.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  margin-bottom: 25px;
 }
 
 .night-sky__stars {
   border-radius: 50%;
+  border-color: #171327;
+  border: 3px solid;
   height: 270px;
   width: 270px;
   margin: auto auto;
 }
 
-.night-sky__rose {
-  position: relative;
-  top: 50%;
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery__btn {
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: #fff;
+  margin: 0 auto;
+  font-weight: bold;
+  font-family: "El Messiri", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
