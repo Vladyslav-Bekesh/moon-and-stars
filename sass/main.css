@@ -132,19 +132,12 @@ body {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 280px;
-  min-height: 400px;
+  min-height: 380px;
   background-color: #fff;
   border-radius: 4px;
   transition: transform var(--fast-anim) cubic-bezier(0.4, 0, 0.2, 1);
   padding: 30px;
-  padding-top: 40px;
-}
-@media screen and (min-width: 1200px) {
-  .modal {
-    width: 528px;
-    padding: 40px;
-    position: absolute;
-  }
+  padding-top: 60px;
 }
 
 .backdrop.is-hidden .modal {
@@ -168,4 +161,39 @@ body {
 .modal-close-button:focus {
   border: solid 1px var(--main-links-color);
   fill: var(--main-links-color);
+}
+
+.swiper {
+  width: 280px;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+}
+
+.swiper-slide img {
+  width: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 40px !important;
+  left: auto;
+  margin-top: 170px;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 40px !important;
+  right: auto;
+  margin-top: 170px;
 }/*# sourceMappingURL=main.css.map */
