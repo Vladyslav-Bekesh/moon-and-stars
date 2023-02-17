@@ -24,12 +24,12 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 280px;
-  min-height: 380px;
+  min-height: 430px;
   background-color: #fff;
   border-radius: 4px;
   transition: transform var(--fast-anim) cubic-bezier(0.4, 0, 0.2, 1); 
-  padding: 30px;
-  padding-top: 60px;
+  padding: 10px;
+  padding-top: 50px;
   //desktop screen
 
 }

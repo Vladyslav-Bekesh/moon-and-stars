@@ -84,9 +84,10 @@ body {
   border-radius: 50%;
   border-color: #171327;
   border: 3px solid;
+  margin: 0 auto;
+  margin-bottom: 25px;
   height: 270px;
   width: 270px;
-  margin: auto auto;
 }
 
 .gallery {
@@ -132,12 +133,12 @@ body {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 280px;
-  min-height: 380px;
+  min-height: 430px;
   background-color: #fff;
   border-radius: 4px;
   transition: transform var(--fast-anim) cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 30px;
-  padding-top: 60px;
+  padding: 10px;
+  padding-top: 50px;
 }
 
 .backdrop.is-hidden .modal {
@@ -164,7 +165,7 @@ body {
 }
 
 .swiper {
-  width: 280px;
+  width: 250px;
   height: 100%;
 }
 
@@ -188,12 +189,12 @@ body {
 .swiper-rtl .swiper-button-prev {
   right: 40px !important;
   left: auto;
-  margin-top: 170px;
+  margin-top: 165px;
 }
 
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
   left: 40px !important;
   right: auto;
-  margin-top: 170px;
+  margin-top: 165px;
 }/*# sourceMappingURL=main.css.map */
